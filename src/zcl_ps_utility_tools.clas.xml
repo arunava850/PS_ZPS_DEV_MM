@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_PS_UTILITY_TOOLS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Utility class for PS</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_COMPANY_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get company code from Cost center / profit center</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_IDOC_STATUS_RECORDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the list of status records for Idoc</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SUBSTITUTES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get substitute for given approver</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_USERS_FROM_ROLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get users from Roles</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_VENDOR_IDOC_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for ZST_PS_VENDOR_DETAILS_CREMAS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SEND_EMAIL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Send Email</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COMPANY_CODE</CMPNAME>
+     <SCONAME>IV_BUSINESS_LINE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Line of business (A, T etc )</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COMPANY_CODE</CMPNAME>
+     <SCONAME>IV_OBJECT_NUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object Number (Cost center, Profit center etc)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COMPANY_CODE</CMPNAME>
+     <SCONAME>IV_OBJECT_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object Type ( P-Profit center,C-Cost center)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COMPANY_CODE</CMPNAME>
+     <SCONAME>RV_COMPANY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Company Code</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_IDOC_STATUS_RECORDS</CMPNAME>
+     <SCONAME>ES_STATUS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for Idoc Status messages</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_IDOC_STATUS_RECORDS</CMPNAME>
+     <SCONAME>IV_IDOC_NO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>IDoc number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SUBSTITUTES</CMPNAME>
+     <SCONAME>IT_APPROVERLIST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workflow Agents</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SUBSTITUTES</CMPNAME>
+     <SCONAME>RT_APPROVERLIST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workflow Agents</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_USERS_FROM_ROLE</CMPNAME>
+     <SCONAME>IV_ROLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Role Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_USERS_FROM_ROLE</CMPNAME>
+     <SCONAME>RT_USER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character Field with Length 10</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_EMAIL</CMPNAME>
+     <SCONAME>IS_INPUT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Input structure for email with excel attachment</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_EMAIL</CMPNAME>
+     <SCONAME>RV_SUBRC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return Code</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

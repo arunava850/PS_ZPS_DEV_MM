@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZCO_ZPS_BP_SEND_PROXY</OBJ_NAME>
+     <OBJECT_M>CLAS</OBJECT_M>
+     <OBJ_NAME_M>ZCO_ZPS_BP_SEND_PROXY</OBJ_NAME_M>
+     <HASH_ID>3879CAD5667F3B16115CDC85CE04609E7718727D</HASH_ID>
+     <ID>&lt;portType&gt; ZPS_BP_SEND_PROXY urn:sap:btp:is:abapproxies urn:sap:btp:is:abapproxies</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>portType</IFR_TYPE>
+     <IFR_NAME>ZPS_BP_SEND_PROXY</IFR_NAME>
+     <IFR_NSPCE>urn:sap:btp:is:abapproxies</IFR_NSPCE>
+     <IFR_GNSPCE>urn:sap:btp:is:abapproxies</IFR_GNSPCE>
+     <GEN_VERS>0001</GEN_VERS>
+     <CATEGORY>ifmmessif</CATEGORY>
+     <DIRECTION>O</DIRECTION>
+     <SYNCHRON>C</SYNCHRON>
+     <GEN_APPL>BACKENDMDR</GEN_APPL>
+     <X-ML_NSPCE>urn:sap:btp:is:abapproxies</X-ML_NSPCE>
+     <X-ML_NAME>ZPS_BP_SEND_PROXY</X-ML_NAME>
+     <FURTHER_DATA>&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;SOAP_APPL&gt;urn:sap-com:soap:application:esr:client:710&lt;/SOAP_APPL&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</FURTHER_DATA>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZCO_ZPS_BP_SEND_PROXY</OBJ_NAME>
+     <OBJECT1>CLAS</OBJECT1>
+     <OBJ_NAME1>ZCO_ZPS_BP_SEND_PROXY</OBJ_NAME1>
+     <OBJECT2>CLAS</OBJECT2>
+     <OBJ_NAME2>ZCO_ZPS_BP_SEND_PROXY</OBJ_NAME2>
+     <ID>&lt;portType&gt; ZPS_BP_SEND_PROXY urn:sap:btp:is:abapproxies urn:sap:btp:is:abapproxies</ID>
+     <IFR_TYPE>portType</IFR_TYPE>
+     <IFR_NAME>ZPS_BP_SEND_PROXY</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>CLAS</R3_TYPE>
+     <R3_NAME>ZCO_ZPS_BP_SEND_PROXY</R3_NAME>
+     <CATEGORY>ifmmessif</CATEGORY>
+     <DIRECTION>O</DIRECTION>
+     <SYNCHRON>C</SYNCHRON>
+    </item>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZCO_ZPS_BP_SEND_PROXY</OBJ_NAME>
+     <OBJECT1>METH</OBJECT1>
+     <OBJ_NAME1>SEND_BP</OBJ_NAME1>
+     <OBJECT2>METH</OBJECT2>
+     <OBJ_NAME2>SEND_BP</OBJ_NAME2>
+     <ID>&lt;operation&gt; SEND_BP &lt;portType&gt; ZPS_BP_SEND_PROXY urn:sap:btp:is:abapproxies urn:sap:btp:is:abapproxies</ID>
+     <IFR_TYPE>operation</IFR_TYPE>
+     <IFR_NAME>SEND_BP</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>METH</R3_TYPE>
+     <R3_NAME>SEND_BP</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+     <DIRECTION>O</DIRECTION>
+    </item>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZCO_ZPS_BP_SEND_PROXY</OBJ_NAME>
+     <OBJECT1>METH</OBJECT1>
+     <OBJ_NAME1>SEND_BP</OBJ_NAME1>
+     <OBJECT2>PAIM</OBJECT2>
+     <OBJ_NAME2>OUTPUT</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZMT_BP_SEND_PROXY</OBJ_NAME_R>
+     <ID>&lt;output&gt; output &lt;operation&gt; SEND_BP &lt;portType&gt; ZPS_BP_SEND_PROXY urn:sap:btp:is:abapproxies urn:sap:btp:is:abapproxies</ID>
+     <IFR_TYPE>PartOutput</IFR_TYPE>
+     <IFR_NAME>output</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>PAIM</R3_TYPE>
+     <R3_NAME>OUTPUT</R3_NAME>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,1271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFPI" serializer_version="v1.0.0">
+ <asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+  <asx:values>
+   <VERSION>1</VERSION>
+   <TYPE/>
+   <INTERFACE href="#o1"/>
+   <INTERFACET/>
+  </asx:values>
+  <asx:heap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:abap="http://www.sap.com/abapxml/types/built-in" xmlns:cls="http://www.sap.com/abapxml/classes/global" xmlns:dic="http://www.sap.com/abapxml/types/dictionary">
+   <cls:CL_FP_INTERFACE_DATA id="o1">
+    <CL_FP_INTERFACE_DATA classVersion="1">
+     <CODING href="#o5"/>
+     <PARAMETERS href="#o4"/>
+     <GLOBAL_DEFINITIONS href="#o3"/>
+     <REFERENCE_FIELDS href="#o2"/>
+     <XSD_DEFINITIONS/>
+    </CL_FP_INTERFACE_DATA>
+   </cls:CL_FP_INTERFACE_DATA>
+   <cls:CL_FP_REFERENCE_FIELDS id="o2">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_REFERENCE_FIELDS classVersion="1">
+     <REFERENCE_FIELDS>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>CONDITIONS-KBETR</VALUE>
+       <UNIT>CONDITIONS-KOEI1</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>ITEM-MENGE</VALUE>
+       <UNIT>ITEM-MEINS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>SCHEDULE-MENGE</VALUE>
+       <UNIT>ITEM-MEINS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>COMPONENTSHDR-TLMNG</VALUE>
+       <UNIT>COMPONENTSHDR-LAGME</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>COMPONENTSHDR-AVMNG</VALUE>
+       <UNIT>COMPONENTSHDR-LAGME</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>COMPONENTSHDR-WAMNG</VALUE>
+       <UNIT>COMPONENTSHDR-LAGME</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>COMPONENTSHDR-WEMNG</VALUE>
+       <UNIT>COMPONENTSHDR-LAGME</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>COMPONENTS-BDMNG</VALUE>
+       <UNIT>COMPONENTS-LAGME</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>ITEM-NETPR</VALUE>
+       <UNIT>HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>ITEM-NETWR</VALUE>
+       <UNIT>HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>KOMK-FKWRT</VALUE>
+       <UNIT>HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>KOMK-SUPOS</VALUE>
+       <UNIT>HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>KOMK-FKWRT_EURO</VALUE>
+       <UNIT>HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>ACCOUNT-MENGE</VALUE>
+       <UNIT>ITEM-MEINS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>ITEM-WEMNG</VALUE>
+       <UNIT>ITEM-MEINS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>ITEM-BSMNG</VALUE>
+       <UNIT>ITEM-BPRME</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>SRVLINES-MENGE</VALUE>
+       <UNIT>SRVLINES-MEINS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>SRVCONDITIONS-KBETR</VALUE>
+       <UNIT>SRVCONDITIONS-KOEI1</UNIT>
+      </SFPREF>
+     </REFERENCE_FIELDS>
+    </CL_FP_REFERENCE_FIELDS>
+   </cls:CL_FP_REFERENCE_FIELDS>
+   <cls:CL_FP_GLOBAL_DEFINITIONS id="o3">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_GLOBAL_DEFINITIONS classVersion="1">
+     <GLOBAL_DATA>
+      <SFPGDATA>
+       <NAME>GV_SWITCH</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>BOOLEAN</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_SYS_NOTE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR50</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GS_HEADER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZST_PO_FORM_HEADER</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GT_ITEMS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZTT_PO_FORM_ITEM</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GS_CC_ADDR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_COMP_ADR</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GS_SUP_PLANT_ADDR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZST_SUPP_PLANT_ADRS</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_LOGO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>XSTRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+     </GLOBAL_DATA>
+     <TYPES>
+      <FPCLINE>TYPES: BEGIN OF ty_comp_adr,</FPCLINE>
+      <FPCLINE>        name1 TYPE char100,</FPCLINE>
+      <FPCLINE>        stret TYPE char100,</FPCLINE>
+      <FPCLINE>        postal_code TYPE char100,</FPCLINE>
+      <FPCLINE>        city  TYPE char100,</FPCLINE>
+      <FPCLINE>       END OF ty_comp_adr.</FPCLINE>
+      <FPCLINE>TYPES: tyt_comp_adr TYPE TABLE OF ty_comp_adr.</FPCLINE>
+     </TYPES>
+     <FIELDSYMBOLS/>
+    </CL_FP_GLOBAL_DEFINITIONS>
+   </cls:CL_FP_GLOBAL_DEFINITIONS>
+   <cls:CL_FP_PARAMETERS id="o4">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_PARAMETERS classVersion="1">
+     <IMPORT_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>SHIPINSTR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_T027B</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>DOCUMENTS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_DRAD</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>COMPONENTSHDR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_COMPLIST_HDR</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>COMPONENTS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_COMPLIST</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MANFDETAILS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_HTNMAT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SCHEDULE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_EKET</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SERVICES</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_ML_ESLL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>HEADER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MMPUR_PRINT_EKKO</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>APPENDIXTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_T166A</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>HEADERINFO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T166U</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ADDRESSINFO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T024E</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_T166P</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVVALUE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_ESUH</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MAINTHDR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_MMPT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MAINTPOS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MPOS</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>FORMULABODY</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_VARIABLEN</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVLINES</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_SRVLINE</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MMPUR_PRINT_ML_ESLL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MMPUR_PRINT_ML_ESLL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>EKKO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>EKKO</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CHANGETEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_T166T</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>INVOICEPER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_FPLTDR_PER</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>INVOICEVAL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_FPLTDR_VAL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MODE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>DRUVO</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>PAYMENTTERMS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_TTEXT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>HEADERTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_T166K</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CONTACTINFO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T024</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>VARIANTS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_PEKPOV</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>KOMK</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MMPUR_PRINT_KOMK</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVCONDITIONS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_KOMVD</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>QMTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_QMTEXT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CONDITIONS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_KOMVD</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>INVOICE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_FPLTDR</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>FORMULAHDR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_FORMEL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ACCOUNT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_EKKN</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVTYP</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_SRVTYP</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ITEM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_EKPO</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVHDR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_SRVHDR</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CONFIGMAT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_ECONF_OUT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVTIME</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_TIME</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CHNGTXTSRV</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_T166T</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ITEMLINE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_ITEM</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>EKPO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>EKPO</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>TEXTS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_T166P</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CONTCONDITIONS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_EKOMD</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>QUANCONDITIONS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_EKOMD_QUANT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>VALUECONDITIONS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_EKOMD_VALUE</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>LINECONDITIONS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_EKOMD_COND</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>EKEK</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_EKEK</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SCHEDLINES</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_SCHEDLINE</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ACCQTYFLG</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR01</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>REASON_FOR_REJECTION</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T165M</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SERIALNUMBER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>PRINT_OBJK_SERIALNO</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>XFZ</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR01</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CONDITIONS_HDR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_KOMVD</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </IMPORT_PARAMETERS>
+     <EXPORT_PARAMETERS/>
+     <TABLE_PARAMETERS/>
+     <EXCEPTIONS/>
+    </CL_FP_PARAMETERS>
+   </cls:CL_FP_PARAMETERS>
+   <cls:CL_FP_CODING id="o5">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_CODING classVersion="1">
+     <INPUT_PARAMETERS/>
+     <OUTPUT_PARAMETERS/>
+     <INITIALIZATION>
+      <FPCLINE>TYPES: BEGIN OF ty_item_addr,</FPCLINE>
+      <FPCLINE>         ebelp TYPE ebelp,</FPCLINE>
+      <FPCLINE>         adrnr TYPE ad_addrnum,</FPCLINE>
+      <FPCLINE>       END OF ty_item_addr.</FPCLINE>
+      <FPCLINE>DATA: lt_addr    TYPE TABLE OF ty_item_addr,</FPCLINE>
+      <FPCLINE>      ls_addr    TYPE ty_item_addr,</FPCLINE>
+      <FPCLINE>      ls_usr_adr TYPE bapiaddr3,</FPCLINE>
+      <FPCLINE>      lt_return  TYPE TABLE OF bapiret2,</FPCLINE>
+      <FPCLINE>      ls_po_form_info TYPE zst_po_form_info.</FPCLINE>
+      <FPCLINE>* Check the Segmentation switch</FPCLINE>
+      <FPCLINE>CALL METHOD cl_ops_switch_check=&gt;sfsw_segmentation</FPCLINE>
+      <FPCLINE>  RECEIVING</FPCLINE>
+      <FPCLINE>    rv_active = gv_switch.</FPCLINE>
+      <FPCLINE>IF gv_switch NE &apos;X&apos;.</FPCLINE>
+      <FPCLINE>  CLEAR gv_switch.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>*BREAK gpylla.</FPCLINE>
+      <FPCLINE>DATA : gs_items TYPE zst_po_form_item.</FPCLINE>
+      <FPCLINE>DATA lt_deladdrs TYPE ztt_po_form_dlvr_addrs.</FPCLINE>
+      <FPCLINE>DATA ls_deladdrs TYPE zst_po_form_dlvr_addrs.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*Get TVARVC values</FPCLINE>
+      <FPCLINE>SELECT name,low FROM tvarvc INTO TABLE @DATA(lt_tvarvc)</FPCLINE>
+      <FPCLINE>  WHERE name IN (&apos;ZMM_PO_BISMT_MAT_TYPES&apos;,&apos;ZMM_PO_MFRPN_MAT_TYPES&apos;).</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>gs_header-rel_order_no = header-ebeln.</FPCLINE>
+      <FPCLINE>gs_header-po_number           = header-unsez.</FPCLINE>
+      <FPCLINE>gs_header-plant               = header-reswk.</FPCLINE>
+      <FPCLINE>SELECT SINGLE name2 FROM t001w INTO @DATA(lv_name2)</FPCLINE>
+      <FPCLINE>  WHERE werks = @header-reswk.</FPCLINE>
+      <FPCLINE>IF lv_name2 IS NOT INITIAL.</FPCLINE>
+      <FPCLINE> gs_header-plant = lv_name2.</FPCLINE>
+      <FPCLINE>ELSE.</FPCLINE>
+      <FPCLINE> gs_header-plant = header-reswk.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>gs_header-created_by          = header-ernam.</FPCLINE>
+      <FPCLINE>*CREATED_BY</FPCLINE>
+      <FPCLINE>CALL FUNCTION &apos;BAPI_USER_GET_DETAIL&apos;</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    username = header-ernam</FPCLINE>
+      <FPCLINE>  IMPORTING</FPCLINE>
+      <FPCLINE>    address  = ls_usr_adr</FPCLINE>
+      <FPCLINE>  TABLES</FPCLINE>
+      <FPCLINE>    return   = lt_return.</FPCLINE>
+      <FPCLINE> IF ls_usr_adr-fullname IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>   gs_header-created_by = ls_usr_adr-fullname.</FPCLINE>
+      <FPCLINE> ELSE.</FPCLINE>
+      <FPCLINE>   gs_header-created_by = header-ernam.</FPCLINE>
+      <FPCLINE> ENDIF.</FPCLINE>
+      <FPCLINE>*TEL_NUMBER</FPCLINE>
+      <FPCLINE>IF contactinfo-tel_number IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  gs_header-tel_number = |{ contactinfo-tel_number }| &amp;&amp; |    Ext: | &amp;&amp; |{ contactinfo-tel_extens }|.</FPCLINE>
+      <FPCLINE>ELSE.</FPCLINE>
+      <FPCLINE>  gs_header-tel_number = |{ contactinfo-ektel }| &amp;&amp; |    Ext: | &amp;&amp; |{ contactinfo-tel_extens }|.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>gs_header-fax                 = contactinfo-telfx.</FPCLINE>
+      <FPCLINE>gs_header-email_adr           = contactinfo-smtp_addr.</FPCLINE>
+      <FPCLINE>gs_header-contact_person = contactinfo-eknam.</FPCLINE>
+      <FPCLINE>gs_header-currency_code       = header-waers.</FPCLINE>
+      <FPCLINE>gs_header-rel_order_no        = header-ebeln.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT  SINGLE eindt FROM eket</FPCLINE>
+      <FPCLINE>    INTO @DATA(lv_eindt)</FPCLINE>
+      <FPCLINE>    WHERE ebeln EQ @header-ebeln.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CONCATENATE lv_eindt+4(2)     &apos;/&apos; lv_eindt+6(2)     &apos;/&apos; lv_eindt+0(4)     INTO gs_header-req_del_fright.</FPCLINE>
+      <FPCLINE>CONCATENATE header-lfdat+4(2) &apos;/&apos; header-lfdat+6(2) &apos;/&apos; header-lfdat+0(4) INTO gs_header-req_delv_date.</FPCLINE>
+      <FPCLINE>CONCATENATE header-aedat+4(2) &apos;/&apos; header-aedat+6(2) &apos;/&apos; header-aedat+0(4) INTO gs_header-po_date.</FPCLINE>
+      <FPCLINE>CONCATENATE header-bedat+4(2) &apos;/&apos; header-bedat+6(2) &apos;/&apos; header-bedat+0(4) INTO gs_header-order_date.</FPCLINE>
+      <FPCLINE>CONCATENATE header-bedat+4(2) &apos;/&apos; header-bedat+6(2) &apos;/&apos; header-bedat+0(4) INTO gs_header-order_date.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA : lv_rcomp TYPE t880-rcomp.</FPCLINE>
+      <FPCLINE>DATA : lv_qty(30) TYPE c.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*lv_rcomp = |00| &amp; |{ header-bukrs }|.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*IF header-bukrs = &apos;1000&apos; OR header-bukrs = &apos;9950&apos;.</FPCLINE>
+      <FPCLINE>*  lv_rcomp = &apos;007005&apos;.</FPCLINE>
+      <FPCLINE>*ENDIF.</FPCLINE>
+      <FPCLINE>*SELECT SINGLE * FROM t880 INTO gs_cc_addr WHERE rcomp = lv_rcomp .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF header-bukrs = &apos;9950&apos;.</FPCLINE>
+      <FPCLINE> DATA(lv_bukrs) = &apos;7005&apos;.</FPCLINE>
+      <FPCLINE>ELSE.</FPCLINE>
+      <FPCLINE> lv_bukrs = header-bukrs.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE adrnr FROM t001 INTO @DATA(lv_adrnr_1)</FPCLINE>
+      <FPCLINE>       WHERE bukrs = @lv_bukrs.</FPCLINE>
+      <FPCLINE>IF sy-subrc IS INITIAL.</FPCLINE>
+      <FPCLINE>  SELECT SINGLE  addrnumber,name1,house_num1,mc_street,city1,region,post_code1</FPCLINE>
+      <FPCLINE>    FROM adrc INTO @DATA(ls_adrc_1)</FPCLINE>
+      <FPCLINE>    WHERE addrnumber = @lv_adrnr_1.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>gs_cc_addr-name1 = ls_adrc_1-name1.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*COMP_ADR_STREET</FPCLINE>
+      <FPCLINE>CONCATENATE ls_adrc_1-house_num1 ls_adrc_1-mc_street INTO gs_cc_addr-stret</FPCLINE>
+      <FPCLINE>   SEPARATED BY space.</FPCLINE>
+      <FPCLINE>*gs_form_info-comp_adr_street = ls_t880-stret.</FPCLINE>
+      <FPCLINE>*COMP_ADR_POST</FPCLINE>
+      <FPCLINE>CONCATENATE ls_adrc_1-city1 ls_adrc_1-region ls_adrc_1-post_code1</FPCLINE>
+      <FPCLINE>  INTO gs_cc_addr-postal_code SEPARATED BY space.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA lv_adrnr TYPE adrnr.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE name1, stras, ort01, regio, pstlz, adrnr</FPCLINE>
+      <FPCLINE>  FROM t001w INTO @gs_sup_plant_addr</FPCLINE>
+      <FPCLINE>  WHERE werks = @header-reswk.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>lv_adrnr = gs_sup_plant_addr-telfx.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>gs_sup_plant_addr-ort01_regio_pstlz = |{ gs_sup_plant_addr-ort01 } { space } { gs_sup_plant_addr-regio } { space }  { gs_sup_plant_addr-pstlz }|.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE fax_number, tel_number</FPCLINE>
+      <FPCLINE>       FROM adrc INTO ( @gs_sup_plant_addr-telfx, @gs_sup_plant_addr-telf1 )</FPCLINE>
+      <FPCLINE>       WHERE addrnumber = @lv_adrnr.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE smtp_addr FROM adr6 INTO @gs_sup_plant_addr-smtp_addr</FPCLINE>
+      <FPCLINE>           WHERE addrnumber = @lv_adrnr.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT ebeln,</FPCLINE>
+      <FPCLINE>       ebelp,</FPCLINE>
+      <FPCLINE>       werks,</FPCLINE>
+      <FPCLINE>       lgort,</FPCLINE>
+      <FPCLINE>       menge,</FPCLINE>
+      <FPCLINE>       meins,</FPCLINE>
+      <FPCLINE>       adrnr,</FPCLINE>
+      <FPCLINE>       adrn2 FROM ekpo INTO TABLE @DATA(lt_ekpo)</FPCLINE>
+      <FPCLINE>  WHERE ebeln = @header-ebeln.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF sy-subrc IS INITIAL.</FPCLINE>
+      <FPCLINE>*  DATA(lt_ekpo_tmp) = lt_ekpo.</FPCLINE>
+      <FPCLINE>*  DELETE lt_ekpo_tmp WHERE lgort IS INITIAL.</FPCLINE>
+      <FPCLINE>*  IF lt_ekpo_tmp IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>*    SELECT * FROM twlad INTO TABLE @DATA(lt_twlad)</FPCLINE>
+      <FPCLINE>*      FOR ALL ENTRIES IN @lt_ekpo</FPCLINE>
+      <FPCLINE>*      WHERE werks = @lt_ekpo-werks</FPCLINE>
+      <FPCLINE>*      AND   lgort = @lt_ekpo-lgort.</FPCLINE>
+      <FPCLINE>*  ENDIF.</FPCLINE>
+      <FPCLINE>*  lt_ekpo_tmp = lt_ekpo.</FPCLINE>
+      <FPCLINE>*  DELETE lt_ekpo_tmp WHERE werks IS INITIAL.</FPCLINE>
+      <FPCLINE>*  IF lt_ekpo_tmp IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>*    SELECT werks, adrnr FROM t001w INTO TABLE @DATA(lt_t001w)</FPCLINE>
+      <FPCLINE>*      FOR ALL ENTRIES IN @lt_ekpo</FPCLINE>
+      <FPCLINE>*      WHERE werks = @lt_ekpo-werks.</FPCLINE>
+      <FPCLINE>*  ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*  SELECT addrnumber,</FPCLINE>
+      <FPCLINE>*         name1,</FPCLINE>
+      <FPCLINE>*         house_num1,</FPCLINE>
+      <FPCLINE>*         mc_street,</FPCLINE>
+      <FPCLINE>*         city1,</FPCLINE>
+      <FPCLINE>*         region,</FPCLINE>
+      <FPCLINE>*         post_code1,</FPCLINE>
+      <FPCLINE>*         fax_number,</FPCLINE>
+      <FPCLINE>*         tel_number FROM adrc</FPCLINE>
+      <FPCLINE>*         INTO TABLE @DATA(lt_adrc)</FPCLINE>
+      <FPCLINE>*         FOR ALL ENTRIES IN @lt_ekpo</FPCLINE>
+      <FPCLINE>*         WHERE addrnumber = @lt_ekpo-adrn2.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*  SELECT addrnumber,</FPCLINE>
+      <FPCLINE>*         name1,</FPCLINE>
+      <FPCLINE>*         house_num1,</FPCLINE>
+      <FPCLINE>*         mc_street,</FPCLINE>
+      <FPCLINE>*         city1,</FPCLINE>
+      <FPCLINE>*         region,</FPCLINE>
+      <FPCLINE>*         post_code1,</FPCLINE>
+      <FPCLINE>*         fax_number,</FPCLINE>
+      <FPCLINE>*         tel_number FROM adrc</FPCLINE>
+      <FPCLINE>*         APPENDING TABLE @lt_adrc</FPCLINE>
+      <FPCLINE>*         FOR ALL ENTRIES IN @lt_ekpo</FPCLINE>
+      <FPCLINE>*         WHERE addrnumber = @lt_ekpo-adrnr.</FPCLINE>
+      <FPCLINE>*  IF lt_twlad IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>*    SELECT addrnumber,</FPCLINE>
+      <FPCLINE>*           name1,</FPCLINE>
+      <FPCLINE>*           house_num1,</FPCLINE>
+      <FPCLINE>*           mc_street,</FPCLINE>
+      <FPCLINE>*           city1,</FPCLINE>
+      <FPCLINE>*           region,</FPCLINE>
+      <FPCLINE>*           post_code1,</FPCLINE>
+      <FPCLINE>*           fax_number,</FPCLINE>
+      <FPCLINE>*           tel_number FROM adrc</FPCLINE>
+      <FPCLINE>*           APPENDING TABLE @lt_adrc</FPCLINE>
+      <FPCLINE>*           FOR ALL ENTRIES IN @lt_twlad</FPCLINE>
+      <FPCLINE>*           WHERE addrnumber = @lt_twlad-adrnr.</FPCLINE>
+      <FPCLINE>*  ENDIF.</FPCLINE>
+      <FPCLINE>*  IF lt_t001w IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>*    SELECT addrnumber,</FPCLINE>
+      <FPCLINE>*           name1,</FPCLINE>
+      <FPCLINE>*           house_num1,</FPCLINE>
+      <FPCLINE>*           mc_street,</FPCLINE>
+      <FPCLINE>*           city1,</FPCLINE>
+      <FPCLINE>*           region,</FPCLINE>
+      <FPCLINE>*           post_code1,</FPCLINE>
+      <FPCLINE>*           fax_number,</FPCLINE>
+      <FPCLINE>*           tel_number FROM adrc</FPCLINE>
+      <FPCLINE>*           APPENDING TABLE @lt_adrc</FPCLINE>
+      <FPCLINE>*           FOR ALL ENTRIES IN @lt_t001w</FPCLINE>
+      <FPCLINE>*           WHERE addrnumber = @lt_t001w-adrnr.</FPCLINE>
+      <FPCLINE>*  ENDIF.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*  IF sy-subrc IS INITIAL.</FPCLINE>
+      <FPCLINE>*    SELECT addrnumber,</FPCLINE>
+      <FPCLINE>*           smtp_addr FROM adr6</FPCLINE>
+      <FPCLINE>*           INTO TABLE @DATA(lt_adr6)</FPCLINE>
+      <FPCLINE>*           FOR ALL ENTRIES IN @lt_adrc</FPCLINE>
+      <FPCLINE>*           WHERE addrnumber = @lt_adrc-addrnumber.</FPCLINE>
+      <FPCLINE>*  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>*BREAK gpylla.</FPCLINE>
+      <FPCLINE>*IF item[] IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>*  SELECT matnr,</FPCLINE>
+      <FPCLINE>*         bismt FROM mara</FPCLINE>
+      <FPCLINE>*         INTO TABLE @DATA(lt_mara)</FPCLINE>
+      <FPCLINE>*         FOR ALL ENTRIES IN @item</FPCLINE>
+      <FPCLINE>*         WHERE matnr = @item-ematn.</FPCLINE>
+      <FPCLINE>*ENDIF.</FPCLINE>
+      <FPCLINE>IF item[] IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  SELECT  matnr,mtart,bismt,mfrpn FROM mara INTO TABLE @DATA(lt_mara)</FPCLINE>
+      <FPCLINE>   FOR ALL ENTRIES IN @item</FPCLINE>
+      <FPCLINE> WHERE matnr = @item-matnr.</FPCLINE>
+      <FPCLINE>  IF sy-subrc IS INITIAL.</FPCLINE>
+      <FPCLINE>    SORT lt_mara BY matnr.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>LOOP AT item[] INTO DATA(ls_item).</FPCLINE>
+      <FPCLINE>  CLEAR ls_addr.</FPCLINE>
+      <FPCLINE>  IF ls_item-adrnr IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>    ls_addr-adrnr = ls_item-adrnr.</FPCLINE>
+      <FPCLINE>  ELSEIF ls_item-adrn2 IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>    ls_addr-adrnr = ls_item-adrn2.</FPCLINE>
+      <FPCLINE>  ELSE.</FPCLINE>
+      <FPCLINE>    IF ls_item-lgort IS NOT INITIAL</FPCLINE>
+      <FPCLINE>     AND ls_item-werks IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>      SELECT SINGLE adrnr FROM twlad INTO ls_addr-adrnr</FPCLINE>
+      <FPCLINE>         WHERE werks  EQ  ls_item-werks</FPCLINE>
+      <FPCLINE>          AND lgort EQ ls_item-lgort.</FPCLINE>
+      <FPCLINE>      IF sy-subrc IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>        CLEAR ls_addr-adrnr.</FPCLINE>
+      <FPCLINE>      ENDIF.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>    IF ls_addr-adrnr IS INITIAL AND ls_item-werks IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>      SELECT SINGLE adrnr</FPCLINE>
+      <FPCLINE>        FROM t001w INTO ls_addr-adrnr</FPCLINE>
+      <FPCLINE>        WHERE werks = ls_item-werks.</FPCLINE>
+      <FPCLINE>      IF sy-subrc IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>        CLEAR ls_addr-adrnr.</FPCLINE>
+      <FPCLINE>      ENDIF.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>  IF ls_addr IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>    ls_addr-ebelp = ls_item-ebelp.</FPCLINE>
+      <FPCLINE>    APPEND ls_addr TO lt_addr.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE>DATA(lt_addr_tmp) = lt_addr.</FPCLINE>
+      <FPCLINE>SORT lt_addr_tmp BY adrnr.</FPCLINE>
+      <FPCLINE>DELETE ADJACENT DUPLICATES FROM lt_addr_tmp COMPARING adrnr.</FPCLINE>
+      <FPCLINE>DATA(lv_addr_count) = lines( lt_addr_tmp ).</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF lt_addr_tmp[] IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  SELECT  addrnumber,name1,house_num1,mc_street,city1,region,post_code1,tel_number,fax_number</FPCLINE>
+      <FPCLINE>    FROM adrc INTO TABLE @DATA(lt_adrc)</FPCLINE>
+      <FPCLINE>    FOR ALL ENTRIES IN @lt_addr_tmp</FPCLINE>
+      <FPCLINE>    WHERE addrnumber = @lt_addr_tmp-adrnr.</FPCLINE>
+      <FPCLINE>  IF sy-subrc IS INITIAL.</FPCLINE>
+      <FPCLINE>    SELECT  addrnumber,smtp_addr &quot;#EC CI_NO_TRANSFORM</FPCLINE>
+      <FPCLINE>      FROM adr6 INTO TABLE @DATA(lt_adr6)</FPCLINE>
+      <FPCLINE>      FOR ALL ENTRIES IN @lt_adrc</FPCLINE>
+      <FPCLINE>      WHERE addrnumber = @lt_adrc-addrnumber.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*&gt;&gt; Get Delivery address details</FPCLINE>
+      <FPCLINE>*// For single delivery address</FPCLINE>
+      <FPCLINE>IF lv_addr_count = 1.</FPCLINE>
+      <FPCLINE>  ls_addr =  lt_addr_tmp[ 1 ].</FPCLINE>
+      <FPCLINE>  READ TABLE lt_adrc INTO DATA(ls_adrc)</FPCLINE>
+      <FPCLINE>                     WITH KEY addrnumber = ls_addr-adrnr.</FPCLINE>
+      <FPCLINE>  IF sy-subrc IS INITIAL.</FPCLINE>
+      <FPCLINE>*  DELV_ADR_NAME</FPCLINE>
+      <FPCLINE>    ls_po_form_info-delv_adr_name = ls_adrc-name1.</FPCLINE>
+      <FPCLINE>*  DELV_ADR_STREET</FPCLINE>
+      <FPCLINE>    CONCATENATE ls_adrc-house_num1 ls_adrc-mc_street INTO ls_po_form_info-delv_adr_street</FPCLINE>
+      <FPCLINE>       SEPARATED BY space.</FPCLINE>
+      <FPCLINE>*  DELV_ADR_CITY_REGION_POST</FPCLINE>
+      <FPCLINE>    CONCATENATE ls_adrc-city1 ls_adrc-region ls_adrc-post_code1</FPCLINE>
+      <FPCLINE>     INTO ls_po_form_info-delv_adr_city_region_post</FPCLINE>
+      <FPCLINE>     SEPARATED BY space.</FPCLINE>
+      <FPCLINE>*  DELV_ADR_FAX</FPCLINE>
+      <FPCLINE>    ls_po_form_info-delv_adr_fax = ls_adrc-fax_number.</FPCLINE>
+      <FPCLINE>*  DELV_ADR_PHONE</FPCLINE>
+      <FPCLINE>    ls_po_form_info-delv_adr_phone = ls_adrc-tel_number.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>  READ TABLE lt_adr6 INTO DATA(ls_adr6)</FPCLINE>
+      <FPCLINE>                     WITH KEY addrnumber = ls_addr-adrnr.</FPCLINE>
+      <FPCLINE>  IF sy-subrc IS INITIAL.</FPCLINE>
+      <FPCLINE>*DELV_ADR_EMAIL</FPCLINE>
+      <FPCLINE>    ls_po_form_info-delv_adr_email = ls_adr6-smtp_addr.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*DELV_ADDR_TITLE</FPCLINE>
+      <FPCLINE>  ls_po_form_info-delv_addr_title = &apos;&lt;C1&gt;Please Deliver To:&lt;/&gt;&apos;.</FPCLINE>
+      <FPCLINE>*DELV_ADDR</FPCLINE>
+      <FPCLINE>  CONCATENATE &apos;&lt;C2&gt;Fax #:&lt;/&gt;&apos; ls_po_form_info-delv_adr_fax</FPCLINE>
+      <FPCLINE>        INTO ls_po_form_info-delv_adr_fax SEPARATED BY space.</FPCLINE>
+      <FPCLINE>  CONCATENATE &apos;&lt;C2&gt;Phone #:&lt;/&gt;&apos; ls_po_form_info-delv_adr_phone</FPCLINE>
+      <FPCLINE>        INTO ls_po_form_info-delv_adr_phone SEPARATED BY space.</FPCLINE>
+      <FPCLINE>  CONCATENATE &apos;&lt;C2&gt;Email #:&lt;/&gt;&apos; ls_po_form_info-delv_adr_email</FPCLINE>
+      <FPCLINE>        INTO ls_po_form_info-delv_adr_email SEPARATED BY space.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* ls_po_form_info-delv_addr_info</FPCLINE>
+      <FPCLINE>  gs_header-delv_addr_info = VALUE #(</FPCLINE>
+      <FPCLINE>            ( tdformat = &apos;*&apos; tdline = ls_po_form_info-delv_addr_title )</FPCLINE>
+      <FPCLINE>            ( tdformat = &apos;*&apos; tdline = ls_po_form_info-delv_adr_name )</FPCLINE>
+      <FPCLINE>            ( tdformat = &apos;*&apos; tdline = ls_po_form_info-delv_adr_street )</FPCLINE>
+      <FPCLINE>            ( tdformat = &apos;*&apos; tdline = ls_po_form_info-delv_adr_city_region_post )</FPCLINE>
+      <FPCLINE>            ( tdformat = &apos;*&apos; tdline = ls_po_form_info-delv_adr_fax )</FPCLINE>
+      <FPCLINE>            ( tdformat = &apos;*&apos; tdline = ls_po_form_info-delv_adr_phone )</FPCLINE>
+      <FPCLINE>            ( tdformat = &apos;*&apos; tdline = ls_po_form_info-delv_adr_email )</FPCLINE>
+      <FPCLINE>            ).</FPCLINE>
+      <FPCLINE>  CLEAR:</FPCLINE>
+      <FPCLINE>        ls_po_form_info-delv_addr_title ,</FPCLINE>
+      <FPCLINE>        ls_po_form_info-delv_adr_name ,</FPCLINE>
+      <FPCLINE>        ls_po_form_info-delv_adr_street,</FPCLINE>
+      <FPCLINE>        ls_po_form_info-delv_adr_city_region_post ,</FPCLINE>
+      <FPCLINE>        ls_po_form_info-delv_adr_fax ,</FPCLINE>
+      <FPCLINE>        ls_po_form_info-delv_adr_phone ,</FPCLINE>
+      <FPCLINE>        ls_po_form_info-delv_adr_email .</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>LOOP AT item INTO ls_item.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  gs_items-po_item  = ls_item-ebelp.</FPCLINE>
+      <FPCLINE>  gs_items-material = ls_item-matnr.</FPCLINE>
+      <FPCLINE>  gs_items-descr    = ls_item-txz01.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  READ TABLE lt_mara INTO DATA(ls_mara) WITH KEY matnr = ls_itemline-ematn.</FPCLINE>
+      <FPCLINE>*  IF sy-subrc IS INITIAL.</FPCLINE>
+      <FPCLINE>*    gs_items-sku = ls_mara-bismt.</FPCLINE>
+      <FPCLINE>*  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  READ TABLE lt_mara INTO DATA(ls_mara)</FPCLINE>
+      <FPCLINE>                     WITH KEY matnr = ls_item-matnr</FPCLINE>
+      <FPCLINE>                     BINARY SEARCH.</FPCLINE>
+      <FPCLINE>  IF sy-subrc IS INITIAL.</FPCLINE>
+      <FPCLINE>    READ TABLE lt_tvarvc INTO DATA(ls_tvarvc)</FPCLINE>
+      <FPCLINE>                         WITH KEY name = &apos;ZMM_PO_BISMT_MAT_TYPES&apos;</FPCLINE>
+      <FPCLINE>                                  low  = ls_mara-mtart.</FPCLINE>
+      <FPCLINE>    IF sy-subrc IS INITIAL.</FPCLINE>
+      <FPCLINE>      gs_items-sku = ls_mara-bismt.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>    READ TABLE lt_tvarvc INTO ls_tvarvc</FPCLINE>
+      <FPCLINE>                         WITH KEY name = &apos;ZMM_PO_MFRPN_MAT_TYPES&apos;</FPCLINE>
+      <FPCLINE>                                  low  = ls_mara-mtart.</FPCLINE>
+      <FPCLINE>    IF sy-subrc IS INITIAL.</FPCLINE>
+      <FPCLINE>      gs_items-sku = ls_mara-mfrpn.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  READ TABLE lt_ekpo INTO DATA(ls_ekpo) WITH KEY ebelp = ls_item-ebelp.</FPCLINE>
+      <FPCLINE>  IF sy-subrc IS INITIAL.</FPCLINE>
+      <FPCLINE>*  IF ls_item-umren &gt; 0.</FPCLINE>
+      <FPCLINE>*    gs_items-ord_qty = ls_item-menge * ( ls_item-umrez / ls_item-umren ).</FPCLINE>
+      <FPCLINE>*  ELSE.</FPCLINE>
+      <FPCLINE>**   &lt;lfs_item&gt;-ord_qty = ls_item-menge.</FPCLINE>
+      <FPCLINE>*  ENDIF.</FPCLINE>
+      <FPCLINE>**    gs_items-ord_qty = ls_ekpo-menge.</FPCLINE>
+      <FPCLINE>*    lv_qty = ls_ekpo-menge.</FPCLINE>
+      <FPCLINE>*    SHIFT lv_qty LEFT DELETING LEADING space.</FPCLINE>
+      <FPCLINE>*    gs_items-qty_char = lv_qty.</FPCLINE>
+      <FPCLINE>*    gs_items-uom     = ls_item-lmein.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>IF gs_items-material IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>*ORD_QTY</FPCLINE>
+      <FPCLINE>  IF ls_item-umren &gt; 0.</FPCLINE>
+      <FPCLINE>    gs_items-ord_qty = ls_item-menge * ( ls_item-umrez / ls_item-umren ).</FPCLINE>
+      <FPCLINE>  ELSE.</FPCLINE>
+      <FPCLINE>*   &lt;lfs_item&gt;-ord_qty = ls_item-menge.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>*UOM</FPCLINE>
+      <FPCLINE>  gs_items-uom = ls_item-lmein.</FPCLINE>
+      <FPCLINE>ELSE.</FPCLINE>
+      <FPCLINE> gs_items-ord_qty = ls_item-menge.</FPCLINE>
+      <FPCLINE>  gs_items-uom = ls_item-meins.</FPCLINE>
+      <FPCLINE> gs_items-sku = ls_item-idnlf. &quot; 22/02/2024</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*&gt;&gt; Deliver To Logic</FPCLINE>
+      <FPCLINE>  IF lv_addr_count &gt; 1.</FPCLINE>
+      <FPCLINE>*&gt;&gt; Get Delivery address details</FPCLINE>
+      <FPCLINE>    READ TABLE lt_addr INTO ls_addr</FPCLINE>
+      <FPCLINE>             WITH KEY ebelp = ls_item-ebelp.</FPCLINE>
+      <FPCLINE>    IF sy-subrc IS INITIAL.</FPCLINE>
+      <FPCLINE>      READ TABLE lt_adrc INTO ls_adrc</FPCLINE>
+      <FPCLINE>                         WITH KEY addrnumber = ls_addr-adrnr.</FPCLINE>
+      <FPCLINE>      IF sy-subrc IS INITIAL.</FPCLINE>
+      <FPCLINE>*    DELV_ADR_NAME</FPCLINE>
+      <FPCLINE>        ls_po_form_info-delv_adr_name = ls_adrc-name1.</FPCLINE>
+      <FPCLINE>*    DELV_ADR_STREET</FPCLINE>
+      <FPCLINE>        CONCATENATE ls_adrc-house_num1 ls_adrc-mc_street INTO ls_po_form_info-delv_adr_street</FPCLINE>
+      <FPCLINE>           SEPARATED BY space.</FPCLINE>
+      <FPCLINE>*    DELV_ADR_CITY_REGION_POST</FPCLINE>
+      <FPCLINE>        CONCATENATE ls_adrc-city1 ls_adrc-region ls_adrc-post_code1</FPCLINE>
+      <FPCLINE>         INTO ls_po_form_info-delv_adr_city_region_post</FPCLINE>
+      <FPCLINE>         SEPARATED BY space.</FPCLINE>
+      <FPCLINE>*    DELV_ADR_FAX</FPCLINE>
+      <FPCLINE>        ls_po_form_info-delv_adr_fax = ls_adrc-fax_number.</FPCLINE>
+      <FPCLINE>*    DELV_ADR_PHONE</FPCLINE>
+      <FPCLINE>        ls_po_form_info-delv_adr_phone = ls_adrc-tel_number.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>        CLEAR ls_adr6.</FPCLINE>
+      <FPCLINE>        READ TABLE lt_adr6 INTO ls_adr6</FPCLINE>
+      <FPCLINE>                           WITH KEY addrnumber = ls_addr-adrnr.</FPCLINE>
+      <FPCLINE>        IF sy-subrc IS INITIAL.</FPCLINE>
+      <FPCLINE>        ENDIF.</FPCLINE>
+      <FPCLINE>*  DELV_ADR_EMAIL</FPCLINE>
+      <FPCLINE>        ls_po_form_info-delv_adr_email = ls_adr6-smtp_addr.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  DELV_ADDR_TITLE</FPCLINE>
+      <FPCLINE>        ls_po_form_info-delv_addr_title = &apos;&lt;C1&gt;Please Deliver To:&lt;/&gt;&apos;.</FPCLINE>
+      <FPCLINE>*  DELV_ADDR</FPCLINE>
+      <FPCLINE>        CONCATENATE &apos;&lt;C2&gt;Fax #:&lt;/&gt;&apos; ls_po_form_info-delv_adr_fax</FPCLINE>
+      <FPCLINE>              INTO ls_po_form_info-delv_adr_fax SEPARATED BY space.</FPCLINE>
+      <FPCLINE>        CONCATENATE &apos;&lt;C2&gt;Phone #:&lt;/&gt;&apos; ls_po_form_info-delv_adr_phone</FPCLINE>
+      <FPCLINE>              INTO ls_po_form_info-delv_adr_phone SEPARATED BY space.</FPCLINE>
+      <FPCLINE>        CONCATENATE &apos;&lt;C2&gt;Email #:&lt;/&gt;&apos; ls_po_form_info-delv_adr_email</FPCLINE>
+      <FPCLINE>              INTO ls_po_form_info-delv_adr_email SEPARATED BY space.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>        gs_items-delv_addr_info = VALUE #(</FPCLINE>
+      <FPCLINE>                  ( tdformat = &apos;*&apos; tdline = ls_po_form_info-delv_addr_title )</FPCLINE>
+      <FPCLINE>                  ( tdformat = &apos;*&apos; tdline = ls_po_form_info-delv_adr_name )</FPCLINE>
+      <FPCLINE>                  ( tdformat = &apos;*&apos; tdline = ls_po_form_info-delv_adr_street )</FPCLINE>
+      <FPCLINE>                  ( tdformat = &apos;*&apos; tdline = ls_po_form_info-delv_adr_city_region_post )</FPCLINE>
+      <FPCLINE>                  ( tdformat = &apos;*&apos; tdline = ls_po_form_info-delv_adr_fax )</FPCLINE>
+      <FPCLINE>                  ( tdformat = &apos;*&apos; tdline = ls_po_form_info-delv_adr_phone )</FPCLINE>
+      <FPCLINE>                  ( tdformat = &apos;*&apos; tdline = ls_po_form_info-delv_adr_email )</FPCLINE>
+      <FPCLINE>                  ( tdformat = &apos;*&apos; tdline = cl_abap_char_utilities=&gt;newline )</FPCLINE>
+      <FPCLINE>                  ).</FPCLINE>
+      <FPCLINE>        CLEAR:</FPCLINE>
+      <FPCLINE>              ls_po_form_info-delv_addr_title ,</FPCLINE>
+      <FPCLINE>              ls_po_form_info-delv_adr_name ,</FPCLINE>
+      <FPCLINE>              ls_po_form_info-delv_adr_street,</FPCLINE>
+      <FPCLINE>              ls_po_form_info-delv_adr_city_region_post ,</FPCLINE>
+      <FPCLINE>              ls_po_form_info-delv_adr_fax ,</FPCLINE>
+      <FPCLINE>              ls_po_form_info-delv_adr_phone ,</FPCLINE>
+      <FPCLINE>              ls_po_form_info-delv_adr_email .</FPCLINE>
+      <FPCLINE>      ENDIF.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSE.</FPCLINE>
+      <FPCLINE>*    APPEND gs_items TO gt_items.</FPCLINE>
+      <FPCLINE>*    CLEAR gs_items.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>  APPEND gs_items TO gt_items.</FPCLINE>
+      <FPCLINE>  CLEAR gs_items.</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>*IF sy-sysid = &apos;DS4&apos;.</FPCLINE>
+      <FPCLINE>*  gv_sys_note = &apos;This is test print from DS4&apos;.</FPCLINE>
+      <FPCLINE>*ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*CALL METHOD cl_ssf_xsf_utilities=&gt;get_bds_graphic_as_bmp</FPCLINE>
+      <FPCLINE>*  EXPORTING</FPCLINE>
+      <FPCLINE>*    p_object       = &apos;GRAPHICS&apos;</FPCLINE>
+      <FPCLINE>*    p_name         = &apos;ZPS_LOGO&apos;</FPCLINE>
+      <FPCLINE>*    p_id           = &apos;BMAP&apos;</FPCLINE>
+      <FPCLINE>*    p_btype        = &apos;BCOL&apos;</FPCLINE>
+      <FPCLINE>*  RECEIVING</FPCLINE>
+      <FPCLINE>*    p_bmp          = gv_logo</FPCLINE>
+      <FPCLINE>*  EXCEPTIONS</FPCLINE>
+      <FPCLINE>*    not_found      = 1</FPCLINE>
+      <FPCLINE>*    internal_error = 2</FPCLINE>
+      <FPCLINE>*    OTHERS         = 3.</FPCLINE>
+     </INITIALIZATION>
+     <FORMS/>
+    </CL_FP_CODING>
+   </cls:CL_FP_CODING>
+  </asx:heap>
+ </asx:abap>
+</abapGit>
